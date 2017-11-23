@@ -75,12 +75,8 @@ body {
     
 }
 
-.text_area {
-    max-width: 100%;
-}
-
 
 textarea { 
-   /* will prevent resizing horizontally, Might not be supported on IE/some others. */
-   resize:vertical;
-}
+    /* will prevent resizing horizontally, Might not be supported on IE/some others. */
+    resize:vertical;
+} 
