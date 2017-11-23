@@ -1,3 +1,5 @@
+# Contact form validations work in progress.
+
 class EmailValidator < ActiveModel::Validator
     def validate(contact_params)
         unless contact_params[:email].include?("@")
