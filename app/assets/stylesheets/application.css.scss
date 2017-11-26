@@ -80,3 +80,7 @@ textarea {
     /* will prevent resizing horizontally, Might not be supported on IE/some others. */
     resize:vertical;
 } 
+
+.alert-notice {
+    display :none;
+}
